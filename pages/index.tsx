@@ -1,3 +1,18 @@
-export default function Page() {
-    return <h1>Hello, Next.js!</h1>
-  }
+import Background from "../components/Background"
+import Section from '../components/Section'
+
+function HomePage() {
+  return (
+    <div>
+      <div className='container'>
+          <Section />
+          <Section />
+          <Section />
+      </div>
+      <Background />
+
+    </div>
+  )
+}
+
+export default HomePage
